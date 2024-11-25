@@ -1,0 +1,109 @@
+@font-face {
+    font-family:juia;
+    src: url(./RIMONS.otf);
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+  align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c5e1fa;
+   
+    
+}
+
+   
+
+h1{
+    font-family:juia;
+    color: #ebeff5;
+}
+
+#calculator{
+    background: url(https://i.pinimg.com/736x/ec/53/ab/ec53abb0c85aa89ffab4f60628cea300.jpg);
+    max-width: 360px;
+    background-color: #9bb9d3;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 1.5px 2px 10px #eeebeb;
+    object-fit: cover;
+}
+
+#display{
+    font-size: 22px;
+    text-align: right;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 20px;
+border-radius: 5px;
+color: #6692b9;
+background-color: #ebeff5;
+border: none;
+box-sizing: border-box;
+opacity: 78%;
+}
+
+button{
+    opacity: 78%;
+    width: calc(25% - 12px);
+    height: 40px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius:5px ;
+    float:left;
+    background-color: #e2e6ec;
+    color: #000000;
+    transition: 0.3s;
+}
+
+.operador{
+    background-color: #90a4b6;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #b9dcfa;
+}
+
+.video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+footer #footer{
+    padding: 20px;
+}
+
+footer{  
+    padding: 15px;
+    background-color: #6692b9;
+    border-radius: 5px;
+    opacity: 78%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+a:hover{
+    color: #163d5f;
+}
